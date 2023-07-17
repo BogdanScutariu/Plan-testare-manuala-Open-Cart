@@ -69,6 +69,20 @@ Testing types used:<strong>Funtional testing, GUI testing</strong>
   | Date | Name| Role |
   |---|---|---|
   | 17.07.2023 | Lucian Bogdan Scutariu | Junior Tester| 
+
+  <em><strong>Entry criteria:</strong></em>
+  
+ <li>Functional business specifications are defined
+ <li>Hardware specifications 
+ <li>Roles needed for the project are allocated
+ <li>Testing environment is up and running
+ <li>Smoke test passed (being the most basic type of test, this is a very important entry criteria in the process of testing)
+
+ <em><strong>Exit criteria:</strong></em>
+
+
+ 
+
   
 
    
