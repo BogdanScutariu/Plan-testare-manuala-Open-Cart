@@ -80,6 +80,14 @@ Testing types used:<strong>Funtional testing, GUI testing</strong>
 
  <em><strong>Exit criteria:</strong></em>
 
+ <li>all test cases have been executed 
+ <li>90% of tests are passed
+ <li>no Critical issues/bugs have Open status (All unresolved bugs have low priority and low severity)
+ <li>exploratory testing performed on the features: Add funds, Withdraw funds, Send money
+ <li>update tests are 100% passed (update tests will not generate other new issues that impact the application)
+ 
+
+
 
  
 
