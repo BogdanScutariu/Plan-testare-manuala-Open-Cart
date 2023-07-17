@@ -83,8 +83,31 @@ Testing types used:<strong>Funtional testing, GUI testing</strong>
  <li>all test cases have been executed 
  <li>90% of tests are passed
  <li>no Critical issues/bugs have Open status (All unresolved bugs have low priority and low severity)
- <li>exploratory testing performed on the features: Add funds, Withdraw funds, Send money
+ <li>exploratory testing performed on the features: Add funds, buy a product, Cancel order
  <li>update tests are 100% passed (update tests will not generate other new issues that impact the application)
+
+ <em><strong>Risks:</strong></em>
+
+ <li>user data (banking related data, funds, transactions, etc) might be impacted with update tests
+ <li>stability risks (crashes, disconnects, etc)
+ <li>IE browser might have performance issues
+ <li>versions of IE older than 1.5923e have security vulnerabilities (we could mention what vulnerabilities are)
+ <li>the web page pagination could be impacted when opened on mobile devices
+ <li>stress conditions might impact the web application
+ <li>new browser might not be supported 
+ <li>Security problem due new updates
+ <li> Log in problems
+
+  ### 2.2 Test analysis 
+
+  <li>The testing process will be done based on the requirements for features:<em><strong>complete with keeping it up to date to the latest version, meeting the technical requirements, accessing the admin panel, and uninstallation</strong></em>.
+  <li> we plan on running a full regression test on the current version
+         
+
+
+       
+
+
  
 
 
