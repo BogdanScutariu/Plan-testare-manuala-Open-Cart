@@ -55,7 +55,12 @@ OpenCart is free open source e-commerce platform for online merchants. OpenCart 
 The features in scope for testing:<strong>Set Up New acount ,Log In , Add Personal Detail</strong>
 
 Testing types used:<strong>Funtional testing, GUI testing</strong>
-    
+
+  ### 1.3 Functionalities and tests out of scope
+  <li> Type of Menu
+  <li> Browser suported
+  <li> No QA support for mobile applications developed. Only web applications will be tested
+  <li> Non-functional testing like stress, performance is beyond scope of this project.
    
 
    
