@@ -7,8 +7,8 @@
 ## Revision History
 | Date  | Description  | Author | Comments | 
 |---|---|---|---|
-| 05.05.2023 | Test Plan for version 0.55 | Lucian Bogdan Scutariu|   |
-| 07.07.2023 | Test Plan for version 1.0 | Lucian Bogdan Scutariu | Added more details for Test Implementation |
+| 17.07.2023 | Test Plan for version 0.55 | Lucian Bogdan Scutariu|   |
+
 
   ### 1.Introduction
       1.1  Project Objective
@@ -61,6 +61,16 @@ Testing types used:<strong>Funtional testing, GUI testing</strong>
   <li> Browser suported
   <li> No QA support for mobile applications developed. Only web applications will be tested
   <li> Non-functional testing like stress, performance is beyond scope of this project.
+
+  ## 2.Test process
+  ### 2.1 Test Planning
+  Roles and responsibilities
+  
+  | Date | Name| Role |
+  |---|---|---|
+  | 17.07.2023 | Lucian Bogdan Scutariu | Junior Tester| 
+  
+
    
 
    
