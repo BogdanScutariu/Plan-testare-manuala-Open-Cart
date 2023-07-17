@@ -17,5 +17,10 @@
   ### 2. Test Process
       2.1 Test Planning
       2.2 Test Analysis
+      2.3 Test design
+      2.4 Test implementation
+      2.5 Test execution
+      2.6 Test closure
+      2.7 Test monitoring and control
      
   
