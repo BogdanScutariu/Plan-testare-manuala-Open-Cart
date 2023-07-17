@@ -41,6 +41,20 @@ OpenCart is free open source e-commerce platform for online merchants. OpenCart 
    Application under test link: https://demo.opencart.com/
    
    Application documentation link: http://docs.opencart.com/en-gb/introduction/
-      
+   
+   ### 1.2  Functionalities in scope
+       Here we should write all the functionalities that are included in the release.
+   Here we will test function as : 
+   <li> Set up new account
+   <li> Log in
+   <li> Add Presonal Detail's 
+   <li> Check de Menu with products
+   <li> Add a product in the Cart
+   <li> Make a Deposit
+    The features in scope for testing: <strong>Set Up New acount ,Log In , Add Personal Detail.</strong>
+   
+
+   
+
      
   
