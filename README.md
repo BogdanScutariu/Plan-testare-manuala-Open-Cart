@@ -51,7 +51,11 @@ OpenCart is free open source e-commerce platform for online merchants. OpenCart 
    <li> Check de Menu with products
    <li> Add a product in the Cart
    <li> Make a Deposit
-    The features in scope for testing: <strong>Set Up New acount ,Log In , Add Personal Detail.</strong>
+     
+The features in scope for testing:<strong>Set Up New acount ,Log In , Add Personal Detail</strong>
+
+Testing types used:<strong>Funtional testing, GUI testing</strong>
+    
    
 
    
