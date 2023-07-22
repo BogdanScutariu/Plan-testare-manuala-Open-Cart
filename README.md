@@ -36,8 +36,8 @@
    ## 1.Introduction
 OpenCart is free open source e-commerce platform for online merchants. OpenCart provides a professional and reliable foundation from which to build a successful online store. This foundation appeals to a wide variety of users; ranging from seasoned web developers looking for a user-friendly interface to use, to shop owners just launching their business online for the first time. OpenCart has an extensive amount of features that gives you a strong hold over the customization of your store. With OpenCart's tools, you can help your online shop live up to its fullest potential..This release will have limited features and stocks.Over a period it will be upgraded and new functionality will be added to the website.
    ### 1.1 Project objective
-  This guide serves as a resource to users needing direction in navigating the OpenCart interface. We detail the aspects involved with setting up your store: complete with keeping it up to date to the latest version, meeting the technical requirements, accessing the admin panel, and uninstallation. The User Guide covers the essentials tools used for managing your store front through the administration side. We will walk you through the important sections of the administration interface: Catalog, Extensions, Sales, Systems, and Reports. In this area we will cover which part of your store front each section is responsible for, and how you can modify them in the administration side to meet your store’s needs. Important store procedures, such as adding products to your store, keeping track of sales, managing customers, changing layouts, adding extensions, and more is explained in this guide.
-  
+  OpenCart's administration side of the store is where you can modify features, upload images, add products, keep track of customers, manage payments, and much more. Customization in the admin affects how the customer will interact with a store: by modifying the look, structure, and content of the store front.
+ 
    Application under test link: https://demo.opencart.com/
    
    Application documentation link: http://docs.opencart.com/en-gb/introduction/
@@ -45,7 +45,7 @@ OpenCart is free open source e-commerce platform for online merchants. OpenCart 
    ### 1.2  Functionalities in scope
        Here we should write all the functionalities that are included in the release.
    Here we will test function as : 
-   <li> Set up new account
+   
    <li> Log in
    <li> Add Presonal Detail's 
    <li> Check de Menu with products
