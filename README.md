@@ -47,17 +47,25 @@ OpenCart is free open source e-commerce platform for online merchants. OpenCart 
    Here we will test function as : 
    
    <li> Log in
-   <li> Add Presonal Detail's 
+   <li> Connecting the OpenCart administration
    <li> Check de Menu with products
-   <li> Add a product in the Cart
-   <li> Make a Deposit
+   <li> Create a category with new Products
+   <li> Managing and adding products in the catalog
+   <li> Create a products Discount
+   <li>  Create a new Gift Vouchers
      
-The features in scope for testing:<strong>Set Up New acount ,Log In , Add Personal Detail</strong>
+The features in scope for testing:<strong> <li> Log in
+   <li> Connecting the OpenCart administration
+   <li> Check de Menu with products
+   <li> Create a category with new Products
+   <li> Managing and adding products in the catalog
+   <li> Create a products Discount
+   <li>  Create a new Gift Vouchers </strong>
 
-Testing types used:<strong>Funtional testing, GUI testing</strong>
+Testing types used:<strong>Funtional testing,Pozitiv Testing,Negativ Test,Condtition Test, GUI testing</strong>
 
   ### 1.3 Functionalities and tests out of scope
-  <li> Type of Menu
+  <li>  <li> Type of Menu
   <li> Browser suported
   <li> No QA support for mobile applications developed. Only web applications will be tested
   <li> Non-functional testing like stress, performance is beyond scope of this project.
