@@ -53,11 +53,10 @@ OpenCart is free open source e-commerce platform for online merchants. OpenCart 
    <li> Check is Voucher are applied 
      
 The features in scope for testing:<strong> 
-   <li> Acces the site
-   <li> Create a new user and insert personal details
+   <li> Acces the site Create a new user and insert personal details
    <li> Check payments methods 
    <li> Check de Menu with products
-   <li> Managing and adding products in the catalog
+   <li> Managing and adding products in the cart
    <li> Check is Voucher are applied 
   </strong>
 
@@ -110,11 +109,10 @@ Testing types used:<strong>Funtional testing,Pozitiv Testing,Negativ Test,Condti
 
 - The testing process will be done based on the requirements for features:
 - 
-   <li> Acces the site
-   <li> Create a new user and insert personal details
+   <li> Acces the site Create a new user and insert personal details
    <li> Check payments methods 
    <li> Check de Menu with products
-   <li> Managing and adding products in the catalog
+   <li> Managing and adding products in the cart
    <li> Check is Voucher are applied 
    
 - we plan on running a full regression test on the current version
@@ -154,11 +152,10 @@ Testing types used:<strong>Funtional testing,Pozitiv Testing,Negativ Test,Condti
 #### 3.1 Test plan - link to test plan
 - The Test Plan is designed to describe all the details of testing for the following features:
   
-   <li> Acces the site
-   <li> Create a new user and insert personal details
+   <li> Acces the site, Create a new user and insert personal details
    <li> Check payments methods 
    <li> Check de Menu with products
-   <li> Managing and adding products in the catalog
+   <li> Managing and adding products in the cart
    <li> Check is Voucher are applied 
 
 - The plan identifies the items and the features to be tested, the type of testing to be performed, the roles and responsibilities for testing process, the risks associated with the plan, the resources and schedule required to complete testing.
