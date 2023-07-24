@@ -46,21 +46,21 @@ OpenCart is free open source e-commerce platform for online merchants. OpenCart 
        Here we should write all the functionalities that are included in the release.
    Here we will test function as : 
    
-   <li> Log in
-   <li> Connecting the OpenCart administration
+   <li> Acces the site
+   <li> Create a new user and insert personal details
+   <li> Check payments methods 
    <li> Check de Menu with products
-   <li> Create a category with new Products
    <li> Managing and adding products in the catalog
-   <li> Create a products Discount
-   <li>  Create a new Gift Vouchers 
+   <li> Check is Voucher are applied 
      
-The features in scope for testing:<strong> <li> Log in
-   <li> Connecting the OpenCart administration
+The features in scope for testing:<strong> 
+   <li> Acces the site
+   <li> Create a new user and insert personal details
+   <li> Check payments methods 
    <li> Check de Menu with products
-   <li> Create a category with new Products
    <li> Managing and adding products in the catalog
-   <li> Create a products Discount
-   <li>  Create a new Gift Vouchers </strong>
+   <li> Check is Voucher are applied 
+  </strong>
 
 Testing types used:<strong>Funtional testing,Pozitiv Testing,Negativ Test,Condtition Test, GUI testing</strong>
 
@@ -110,13 +110,14 @@ Testing types used:<strong>Funtional testing,Pozitiv Testing,Negativ Test,Condti
   #### 2.2 Test analysis 
 
 - The testing process will be done based on the requirements for features:
-   <li> Log in
-   <li> Connecting the OpenCart administration
+- 
+   <li> Acces the site
+   <li> Create a new user and insert personal details
+   <li> Check payments methods 
    <li> Check de Menu with products
-   <li> Create a category with new Products
    <li> Managing and adding products in the catalog
-   <li> Create a products Discount
-   <li>  Create a new Gift Vouchers 
+   <li> Check is Voucher are applied 
+   
 - we plan on running a full regression test on the current version
   
     #### 2.3 Test design
@@ -153,13 +154,14 @@ Testing types used:<strong>Funtional testing,Pozitiv Testing,Negativ Test,Condti
 
 #### 3.1 Test plan - link to test plan
 - The Test Plan is designed to describe all the details of testing for the following features:
-   <li> Log in
-   <li> Connecting the OpenCart administration
+  
+   <li> Acces the site
+   <li> Create a new user and insert personal details
+   <li> Check payments methods 
    <li> Check de Menu with products
-   <li> Create a category with new Products
    <li> Managing and adding products in the catalog
-   <li> Create a products Discount
-   <li>  Create a new Gift Vouchers 
+   <li> Check is Voucher are applied 
+
 - The plan identifies the items and the features to be tested, the type of testing to be performed, the roles and responsibilities for testing process, the risks associated with the plan, the resources and schedule required to complete testing.
 
 #### 3.2 Test conditions 
