@@ -46,11 +46,10 @@ OpenCart is free open source e-commerce platform for online merchants. OpenCart 
        Here we should write all the functionalities that are included in the release.
    Here we will test function as : 
    
-   <li> Acces the site
-   <li> Create a new user and insert personal details
+   <li> Acces the site, create a new user and insert personal details
    <li> Check payments methods 
    <li> Check de Menu with products
-   <li> Managing and adding products in the catalog
+   <li> Managing and adding products in the cart
    <li> Check is Voucher are applied 
      
 The features in scope for testing:<strong> 
