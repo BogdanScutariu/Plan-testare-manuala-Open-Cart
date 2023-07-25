@@ -57,7 +57,8 @@ The features in scope for testing:<strong>
    <li> Check payments methods 
    <li> Check de Menu with products
    <li> Managing and adding products in the cart
-   <li> Check is Voucher are applied 
+   <li> Check is Voucher are applied
+   <li> Check out and Shipping adress
   </strong>
 
 Testing types used:<strong>Funtional testing,Pozitiv Testing,Negativ Test,Condtition Test, GUI testing</strong>
@@ -114,6 +115,7 @@ Testing types used:<strong>Funtional testing,Pozitiv Testing,Negativ Test,Condti
    <li> Check de Menu with products
    <li> Managing and adding products in the cart
    <li> Check is Voucher are applied 
+   <li> Check out and Shipping adress 
    
 - we plan on running a full regression test on the current version
   
@@ -157,6 +159,7 @@ Testing types used:<strong>Funtional testing,Pozitiv Testing,Negativ Test,Condti
    <li> Check de Menu with products
    <li> Managing and adding products in the cart
    <li> Check is Voucher are applied 
+   <li> Check out and Shipping adress
 
 - The plan identifies the items and the features to be tested, the type of testing to be performed, the roles and responsibilities for testing process, the risks associated with the plan, the resources and schedule required to complete testing.
 
