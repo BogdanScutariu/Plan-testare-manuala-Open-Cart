@@ -61,7 +61,7 @@ The features in scope for testing:<strong>
    <li> Check out and Shipping adress
   </strong>
 
-Testing types used:<strong>Funtional testing,Pozitiv Testing,Negativ Test,Condtition Test, GUI testing</strong>
+Testing types used:<strong>Funtional testing,Pozitiv Testing,Experienced test,Negativ Test,Condtition Test, GUI testing</strong>
 
   ### 1.3 Functionalities and tests out of scope
   <li>  <li> Type of Menu
