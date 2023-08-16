@@ -120,10 +120,10 @@ Testing types used:<strong>Functional testing,Positiv Testing,Experience-based t
   
     #### 2.3 Test design
 
-- All the test cases are written and reviewed ;
-- Functional test cases will be created in Zephyr Squad using Jira as Test Management tool ;
+- All the test cases are written and reviewed 
+- Functional test cases will be created in Zephyr Squad using Jira as Test Management tool 
 - Test condition will be created in Jira
-- Pozitive Test and Negative Test will be written and executed 
+- Positive Testing and Negative Testing will be written and executed 
 - GUI test cases will be created in Zephyr Squad using Jira as Test Management tool .
 
 #### 2.4 Test implementation
