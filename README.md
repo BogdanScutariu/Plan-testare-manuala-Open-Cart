@@ -76,10 +76,9 @@ Testing types used:<strong>Functional testing,Positiv Testing,Experience-based t
   <em><strong>Entry criteria:</strong></em>
   
  <li>Functional business specifications are defined
- <li>Hardware specifications 
+ <li>Types of software we need to use 
  <li>Roles needed for the project are allocated
  <li>Testing environment is up and running
- <li>Smoke test passed (being the most basic type of test, this is a very important entry criteria in the process of testing)
 
  <em><strong>Exit criteria:</strong></em>
 
