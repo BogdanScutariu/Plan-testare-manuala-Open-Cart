@@ -6,7 +6,7 @@
 ## Revision History
 | Date  | Description  | Author | Comments | 
 |---|---|---|---|
-| 17.07.2023 | Test Plan for version 0.55 | Lucian Bogdan Scutariu|   |
+| 17.07.2023 | Test Plan | Lucian Bogdan Scutariu|   |
 
 
   ### 1.Introduction
