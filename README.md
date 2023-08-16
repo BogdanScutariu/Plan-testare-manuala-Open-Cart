@@ -60,7 +60,7 @@ prioritised for the testing of the web application :
 Testing types used:<strong>Functional testing,Positiv Testing,Experience-based testing,Negativ Testing, GUI testing</strong>
 
   ### 1.3 Functionalities and tests out of scope
-  <li>  <li> Type of Menu
+  <li> Type of Menu
   <li> Browser suported
   <li> No QA support for mobile applications developed. Only web applications will be tested
   <li> Non-functional testing like stress, performance is beyond scope of this project.
