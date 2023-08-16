@@ -42,7 +42,10 @@ OpenCart is free open source e-commerce platform for online merchants. OpenCart 
    Application documentation link: http://docs.opencart.com/en-gb/introduction/
    
    ### 1.2  Functionalities in scope
-       Here we should write all the functionalities that are included in the release.
+      - Create an account successfully 
+      - Check the menu if are corect products in the category 
+      - Ability to chose one or more products and insert in cart
+      - Make a order successfully 
    Here we will test function as : 
    
    <li> Acces the site, create a new user and insert personal details
