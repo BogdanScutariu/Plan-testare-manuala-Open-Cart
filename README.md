@@ -116,7 +116,7 @@ Testing types used:<strong>Functional testing,Positiv Testing,Experience-based t
    Test Conditions:
   <li> We will use test environment ;
   <li> Testing using new accounts and older account is necessary ;
-  <li> The following test conditions could be found here: <a href="https://www.markdownguide.org" target="_blank">Test Conditions!</a>
+  <li> The following test conditions could be found here: <a href="https://github.com/BogdanScutariu/Plan-testare-manuala-Open-Cart/blob/795585ddfcd36a295c95273075b0291befdde931/ZFJ-issue-export-08-16-2023-242ac113-0001.xlsx" target="_blank">Test Conditions</a>
   
     #### 2.3 Test design
 
