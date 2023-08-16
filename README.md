@@ -1,7 +1,6 @@
-# Plan-testare-manuala-Open-Cart
-## Proiect-Practic-Testare-Manuala
-# OpenCart.com  Project
-  ## Test Plan -
+
+# Proiect-Practic-Testare-Manuala OpenCart
+  
   
 
 ## Revision History
