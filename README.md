@@ -37,9 +37,9 @@ OpenCart is free open source e-commerce platform for online merchants. OpenCart 
    ### 1.1 Project objective
   OpenCart's administration side of the store is where you can modify features, upload images, add products, keep track of customers, manage payments, and much more. Customization in the admin affects how the customer will interact with a store: by modifying the look, structure, and content of the store front.
  
-   Application under test link: https://demo.opencart.com/
+   Application under test link: [OpenCart](https://demo.opencart.com/)
    
-   Application documentation link: http://docs.opencart.com/en-gb/introduction/
+   Application documentation link: [Documentation](http://docs.opencart.com/en-gb/introduction)
    
    ### 1.2  Functionalities in scope
       - Create an account successfully 
@@ -52,7 +52,7 @@ OpenCart is free open source e-commerce platform for online merchants. OpenCart 
    <li> Check payments methods 
    <li> Check de Menu with products
    <li> Managing and adding products in the cart
-   <li> Check is Voucher are applied 
+   <li> Check if Voucher are applied 
      
 The features in scope for testing:<strong> 
    <li> Acces the site Create a new user and insert personal details
