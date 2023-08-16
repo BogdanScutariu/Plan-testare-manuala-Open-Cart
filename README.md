@@ -116,7 +116,7 @@ Testing types used:<strong>Functional testing,Positiv Testing,Experience-based t
    Test Conditions:
   <li> We will use test environment ;
   <li> Testing using new accounts and older account is necessary ;
-  <li> The following test conditions could be found here: [Tests]
+  <li> The following test conditions could be found here: [Tests](https://github.com/BogdanScutariu/Plan-testare-manuala-Open-Cart/blob/1dd97e2b40691c2bdf9bb205da40dd8b936826c8/ZFJ-issue-export-08-16-2023-242ac113-0001.xlsx)
   
     #### 2.3 Test design
 
