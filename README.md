@@ -93,11 +93,11 @@ Testing types used:<strong>Functional testing,Positiv Testing,Experience-based t
  <li>user data (banking related data, funds, transactions, etc) might be impacted with update tests
  <li>stability risks (crashes, disconnects, etc)
  <li>IE browser might have performance issues
- <li>versions of IE older than 1.5923e have security vulnerabilities (we could mention what vulnerabilities are)
+ <li>versions of IE older than 1.5923e have security vulnerabilities 
  <li>the web page pagination could be impacted when opened on mobile devices
  <li>stress conditions might impact the web application
- <li>new browser might not be supported 
- <li>Security problem due new updates
+ <li>browser that are new released might not be supported
+ <li>Security problem due new updates that might impact the vulnerability of the application
  <li> Log in problems
 
 
