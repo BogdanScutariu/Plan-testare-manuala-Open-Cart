@@ -46,7 +46,8 @@ OpenCart is free open source e-commerce platform for online merchants. OpenCart 
       - Check the menu if are corect products in the category 
       - Ability to chose one or more products and insert in cart
       - Make a order successfully 
-   Here we will test function as : 
+   The following are the functionalities that need to be
+prioritised for the testing of the web application : 
    
    <li> Acces the site, create a new user and insert personal details
    <li> Check payments methods 
