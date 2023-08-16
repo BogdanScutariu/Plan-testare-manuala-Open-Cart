@@ -57,7 +57,7 @@ prioritised for the testing of the web application :
    <li> Check out and Shipping adress
   
 
-Testing types used:<strong>Functional testing,Positiv Testing,Experienced test,Negativ Test,Condtition Test, GUI testing</strong>
+Testing types used:<strong>Functional testing,Positiv Testing,Experience-based testing,Negativ Testing, GUI testing</strong>
 
   ### 1.3 Functionalities and tests out of scope
   <li>  <li> Type of Menu
