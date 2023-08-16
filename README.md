@@ -104,15 +104,19 @@ Testing types used:<strong>Functional testing,Positiv Testing,Experience-based t
   #### 2.2 Test analysis 
 
 - The testing process will be done based on the requirements for features:
-- 
-   <li> Acces the site Create a new user and insert personal details
+   <li> Acces the site   
+   <li> Create a new user
+   <li> Insert personal details
    <li> Check payments methods 
-   <li> Check de Menu with products
    <li> Managing and adding products in the cart
-   <li> Check is Voucher are applied 
+   <li> Check if Voucher are applied 
    <li> Check out and Shipping adress 
    
 - we plan on running a full regression test on the current version
+   Test Conditions:
+  <li> We will use test environment ;
+  <li> Testing using new accounts and older account is necessary ;
+  <li> The following test conditions could be found here: 
   
     #### 2.3 Test design
 
@@ -159,9 +163,7 @@ Testing types used:<strong>Functional testing,Positiv Testing,Experience-based t
 - The plan identifies the items and the features to be tested, the type of testing to be performed, the roles and responsibilities for testing process, the risks associated with the plan, the resources and schedule required to complete testing.
 
 #### 3.2 Test conditions 
--  we will use test environment ;
-- testing using new accounts and older account is necessary ;
-- The following test conditions could be found here: *vom adauga link catre document cu test conditions create si incarcate pe github. Test conditions vor fi exportate din Jira.
+
 
 #### 3.3 Test cases
  - The test cases with steps could be found here: *vom adauga link catre document cu test cases create si incarcate pe github. Test cases vor fi exportate din Jira.
