@@ -116,7 +116,7 @@ Testing types used:<strong>Functional testing,Positiv Testing,Experience-based t
    Test Conditions:
   <li> We will use test environment ;
   <li> Testing using new accounts and older account is necessary ;
-  <li> The following test conditions could be found here: 
+  <li> The following test conditions could be found here: [Tests]
   
     #### 2.3 Test design
 
