@@ -175,7 +175,7 @@ Testing types used:<strong>Functional testing,Positiv Testing,Experience-based t
  - Link to traceability matrix :  <a href="https://github.com/BogdanScutariu/Plan-testare-manuala-Open-Cart/blob/1df41d86dd52dde85857e9ef60131526458ec927/Tracebility%20Matrix.xlsx">Traceability Matrix report</a>
    
 #### 3.6 Test case results
- -  The test cases results could be found here: <a href="">Test</a> 
+ -  The test cases results could be found here: <a href="https://github.com/BogdanScutariu/Plan-testare-manuala-Open-Cart/blob/24bef84f66aa40056c6934f7b85684345d6c215d/test%20case%20results.html">Test Case Results</a> 
 
 #### 3.7 Bugs report
  - The bugs reported could be found here:  <a href="https://github.com/BogdanScutariu/Plan-testare-manuala-Open-Cart/blob/3a2e2ef01919873549ffb17bd45cab5630051406/bug%20report.png">Bug Report</a>
