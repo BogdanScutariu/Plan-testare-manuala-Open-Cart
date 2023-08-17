@@ -1,0 +1,1082 @@
+
+<!DOCTYPE html>
+<html>
+    <head>
+        <meta charset="UTF-8">
+        <meta http-equiv="Content-Type" content="text/html; charset=utf-8">
+        <title>ZFJ - Html Report for Executions</title>
+        <script type="text/javascript">
+        function altRows ( id ) {
+            if ( document.getElementsByTagName ) {
+                var table = document.getElementById ( id ) ;
+                var rows = table.getElementsByTagName ( "tr" ) ;
+                for ( i = 0 ; i < rows.length ; i ++ ) {
+                    if ( i % 2 == 0 ) {
+                        rows[ i ].className = "evenrowcolor" ;
+                    } else {
+                        rows[ i ].className = "oddrowcolor" ;
+                    }
+                }
+            }
+        }
+        window.onload = function ( ) {
+            altRows ( 'alternatecolor' ) ;
+        }
+        </script>
+        <style type="text/css">
+        table.altrowstable {
+            font-family : verdana, arial, sans-serif ;
+            font-size : 9px ;
+            padding-left : 50px ;
+            color : #333333 ;
+            border-width : 1px ;
+            border-color : #a9c6c9 ;
+            border-collapse : collapse ;
+        }
+        table.altrowstable th {
+            border-width : 1px ;
+            padding : 8px ;
+            border-style : solid ;
+            border-color : #a9c6c9 ;
+        }
+        table.altrowstable thead {
+            font-weight : bold ;
+        }
+        table.altrowstable td {
+            border-width : 1px ;
+            padding : 8px ;
+            border-style : solid ;
+            border-color : #a9c6c9 ;
+        }
+        .oddrowcolor {
+            background-color : #d4e3e5 ;
+        }
+        .evenrowcolor {
+            background-color : none ;
+        }
+        </style>
+    </head>
+    <body>
+
+        <table class="altrowstable" id="alternatecolor" border="1" cellspacing="0" cellpadding="0" style="padding-left : 50 px ; overflow-y = scroll ;">
+            <thead>
+                <th>ExecutionId</th>
+                <th>Cycle</th>
+                <th>Folder Name</th>
+                <th>Issue Key</th>
+                <th>Test Summary</th>
+                <th>Project</th>
+                <th>Component</th>
+                <th>Version</th>
+                <th>Priority</th>
+                <th>Executed By</th>
+                <th>Executed On</th>
+                <th>Execution Status</th>
+                <th>Execution Defect(s)</th>
+                <th>Creation Date</th>
+                <th>Assigned To</th>
+                <th>Execution Custom Field</th>
+                <th>Work Flow Status</th>
+                <th>Total Execution Time</th>
+                <th>Total Logged Time</th>
+                <th>StepId</th>
+                <th>OrderId</th>
+                <th>Step</th>
+                <th>Test Data</th>
+                <th>Expected Result</th>
+                <th>Step Result</th>
+                <th>Comment</th>
+                <th>Test Step Custom Field</th>
+            </thead>
+            <tbody>
+            
+                
+                    <tr>
+                        <td rowspan="9">0b71558e-474b-4dc9-b4f0-461c3b41a9ef</td>
+                        <td rowspan="9">Test released v.1</td>
+                        <td rowspan="9"></td>
+                        <td rowspan="9">PROJ-3</td>
+                        <td rowspan="9">Verify if we can creat a new user on website and complet the mandatory fields</td>
+                        <td rowspan="9">ProjectOpenCart</td>
+                        <td rowspan="9"></td>
+                        <td rowspan="9">Test Released</td>
+                        <td rowspan="9">Medium</td>
+                        <td rowspan="9">Lucian Bogdan Scutariu</td>
+                        <td rowspan="9">07-24-2023 12:33:19</td>
+                        <td rowspan="9">PASS</td>
+                        <td rowspan="9"></td>
+                        <td rowspan="9">07-24-2023 12:12:39</td>
+                        <td rowspan="9"></td>
+                        <td rowspan="9"></td>
+                        <td rowspan="9"></td>
+                        <td rowspan="9"></td>
+                        <td rowspan="9"></td>
+                        
+                            <td>38c85fab-d942-4b04-a2a7-cd5999dfe07e</td>
+                            <td>1</td>
+                            <td><p>we open the browser</p></td>
+                            <td><p>google.com</p></td>
+                            <td><p>browser is open</p></td>
+                            <td>PASS</td>
+                            <td></td>
+                            <td></td>
+                        
+                    </tr>
+                    
+                        <tr>
+                            <td>aafe64c2-530f-4906-8fcf-2d6e541c4123</td>
+                            <td>2</td>
+                            <td><p>we click on the field to write the website</p></td>
+                            <td><p>https://demo.opencart.com/</p></td>
+                            <td><p>Main Page is opened</p></td>
+                            <td>PASS</td>
+                            <td></td>
+                            <td></td>
+                        </tr>
+                    
+                        <tr>
+                            <td>e8b3ae76-2f05-437d-add4-013de14a4483</td>
+                            <td>3</td>
+                            <td><p>we click on my account button</p></td>
+                            <td><p>N/A</p></td>
+                            <td><p>My account menu is open</p></td>
+                            <td>PASS</td>
+                            <td></td>
+                            <td></td>
+                        </tr>
+                    
+                        <tr>
+                            <td>c1762958-3cdf-4ab0-a7ad-c37326469fdf</td>
+                            <td>4</td>
+                            <td><p>we click on register</p></td>
+                            <td><p>N/A</p></td>
+                            <td><p>the page for registration is open</p></td>
+                            <td>PASS</td>
+                            <td></td>
+                            <td></td>
+                        </tr>
+                    
+                        <tr>
+                            <td>80d7d607-3479-4625-9f2d-c768dbf08b59</td>
+                            <td>5</td>
+                            <td><p>we make click on the first name Field and we  write the first name.</p></td>
+                            <td><p>Scutariu</p></td>
+                            <td><p>name is inserted</p></td>
+                            <td>PASS</td>
+                            <td></td>
+                            <td></td>
+                        </tr>
+                    
+                        <tr>
+                            <td>d67f1782-b11b-49c1-95aa-8207917f2b8a</td>
+                            <td>6</td>
+                            <td><p>we make click on the lastt name Field and we  write the last name.</p></td>
+                            <td><p>Bogdan-Lucian</p></td>
+                            <td><p>last name ist insterted</p></td>
+                            <td>PASS</td>
+                            <td></td>
+                            <td></td>
+                        </tr>
+                    
+                        <tr>
+                            <td>769bff54-97e7-4c9f-ad62-9ff422fcd9ac</td>
+                            <td>7</td>
+                            <td><p>we write the email adress in the Email box</p></td>
+                            <td><p>scutariu.lucian89@yahoo.com</p></td>
+                            <td><p>email is insterted in the field</p></td>
+                            <td>PASS</td>
+                            <td></td>
+                            <td></td>
+                        </tr>
+                    
+                        <tr>
+                            <td>2ac02605-f983-4726-bb37-03d97f413704</td>
+                            <td>8</td>
+                            <td><p>we insert a passwort</p></td>
+                            <td></td>
+                            <td><p>passwort is inserted</p></td>
+                            <td>PASS</td>
+                            <td><p>we dont have any information about what the passwort sould contain or not</p></td>
+                            <td></td>
+                        </tr>
+                    
+                        <tr>
+                            <td>fcac986e-9d02-441a-9249-b28e42714533</td>
+                            <td>9</td>
+                            <td><p>we make click on "I have read and agree to the Privacy Policy" box and after click on continue</p></td>
+                            <td></td>
+                            <td><p>we created succesfully a new account</p></td>
+                            <td>PASS</td>
+                            <td></td>
+                            <td></td>
+                        </tr>
+                    
+                
+            
+                
+                    <tr>
+                        <td rowspan="7">4f159313-7329-4595-820b-e7cbb4e2375a</td>
+                        <td rowspan="7">Test released v.1</td>
+                        <td rowspan="7"></td>
+                        <td rowspan="7">PROJ-14</td>
+                        <td rowspan="7">Verify if the voucher discount is applied to opencart products</td>
+                        <td rowspan="7">ProjectOpenCart</td>
+                        <td rowspan="7"></td>
+                        <td rowspan="7">Test Released</td>
+                        <td rowspan="7">Medium</td>
+                        <td rowspan="7">Lucian Bogdan Scutariu</td>
+                        <td rowspan="7">07-25-2023 13:45:04</td>
+                        <td rowspan="7">FAIL</td>
+                        <td rowspan="7">PROJ-15 | PROJ-15</td>
+                        <td rowspan="7">07-25-2023 13:31:59</td>
+                        <td rowspan="7"></td>
+                        <td rowspan="7"></td>
+                        <td rowspan="7"></td>
+                        <td rowspan="7"></td>
+                        <td rowspan="7"></td>
+                        
+                            <td>7151cdb9-e0f6-4370-b630-a9b4e296a4d2</td>
+                            <td>1</td>
+                            <td><p>we acces the website</p></td>
+                            <td><p>https://demo.opencart.com/index.php?route=common/home&language=en-gb</p></td>
+                            <td><p>page is open</p></td>
+                            <td>PASS</td>
+                            <td></td>
+                            <td></td>
+                        
+                    </tr>
+                    
+                        <tr>
+                            <td>08735c93-97a8-41d0-8f99-f7102995d68a</td>
+                            <td>2</td>
+                            <td><p>we add one product in cart</p></td>
+                            <td><p>Samsung SyncMaster 941BW</p></td>
+                            <td><p>product are insert in cart</p></td>
+                            <td>PASS</td>
+                            <td></td>
+                            <td></td>
+                        </tr>
+                    
+                        <tr>
+                            <td>45bb864d-bea1-4428-b93b-b2502c1baf37</td>
+                            <td>3</td>
+                            <td><p>we click on Shopping cart</p></td>
+                            <td></td>
+                            <td><p>cart is open</p></td>
+                            <td>PASS</td>
+                            <td></td>
+                            <td></td>
+                        </tr>
+                    
+                        <tr>
+                            <td>73b67007-4082-492f-884d-f542a539b2d7</td>
+                            <td>4</td>
+                            <td><p>we need to find field for voucher that supposed to be under the products</p></td>
+                            <td></td>
+                            <td><p>we find the field</p></td>
+                            <td>PASS</td>
+                            <td></td>
+                            <td></td>
+                        </tr>
+                    
+                        <tr>
+                            <td>4753e94c-24f0-4815-8371-60a3cd757800</td>
+                            <td>5</td>
+                            <td><p>we go down to page and we press on the voucher field</p></td>
+                            <td></td>
+                            <td></td>
+                            <td>PASS</td>
+                            <td></td>
+                            <td></td>
+                        </tr>
+                    
+                        <tr>
+                            <td>60805642-4305-4484-8d1b-aca87dc22f89</td>
+                            <td>6</td>
+                            <td><p>we click on the field and we write the voucher code</p></td>
+                            <td><p>Reducere99</p></td>
+                            <td><p>field is complet</p></td>
+                            <td></td>
+                            <td></td>
+                            <td></td>
+                        </tr>
+                    
+                        <tr>
+                            <td>9e5fa4ef-3786-4bfa-a4f7-636e5cdbd860</td>
+                            <td>7</td>
+                            <td><p>we check the total price if the voucher is applyed</p></td>
+                            <td></td>
+                            <td><p>price is reduced</p></td>
+                            <td>FAIL</td>
+                            <td></td>
+                            <td></td>
+                        </tr>
+                    
+                
+            
+                
+                    <tr>
+                        <td rowspan="7">77b37465-c0ea-4155-a0b6-c23ac3b7b105</td>
+                        <td rowspan="7">Test released v.1</td>
+                        <td rowspan="7"></td>
+                        <td rowspan="7">PROJ-9</td>
+                        <td rowspan="7">adding more product in cart </td>
+                        <td rowspan="7">ProjectOpenCart</td>
+                        <td rowspan="7"></td>
+                        <td rowspan="7">Test Released</td>
+                        <td rowspan="7">Medium</td>
+                        <td rowspan="7">Lucian Bogdan Scutariu</td>
+                        <td rowspan="7">07-25-2023 12:55:16</td>
+                        <td rowspan="7">PASS</td>
+                        <td rowspan="7"></td>
+                        <td rowspan="7">07-25-2023 12:54:21</td>
+                        <td rowspan="7"></td>
+                        <td rowspan="7"></td>
+                        <td rowspan="7"></td>
+                        <td rowspan="7"></td>
+                        <td rowspan="7"></td>
+                        
+                            <td>d4292c7f-08eb-4460-96f1-c441af887232</td>
+                            <td>1</td>
+                            <td><p>we acces the main page</p></td>
+                            <td><p>https://demo.opencart.com/index.php?route=common/home&language=en-gb</p></td>
+                            <td><p>main page is loaded</p></td>
+                            <td>UNEXECUTED</td>
+                            <td></td>
+                            <td></td>
+                        
+                    </tr>
+                    
+                        <tr>
+                            <td>2f06aca0-142b-47ac-bc26-22d289285818</td>
+                            <td>2</td>
+                            <td><p>we acces the laptop and notebook menu</p></td>
+                            <td></td>
+                            <td><p>page is open</p></td>
+                            <td>PASS</td>
+                            <td></td>
+                            <td></td>
+                        </tr>
+                    
+                        <tr>
+                            <td>f593ae12-73ae-4d3a-b8b9-781cc7d8a91b</td>
+                            <td>3</td>
+                            <td><p>we chose one laptop and we read the info then we addd in the cart</p></td>
+                            <td><p>HP LP3065</p></td>
+                            <td><p>product is added succesfuly in cart</p></td>
+                            <td>PASS</td>
+                            <td></td>
+                            <td></td>
+                        </tr>
+                    
+                        <tr>
+                            <td>164687bd-135b-4e93-a158-a2741d2d31b4</td>
+                            <td>4</td>
+                            <td><p>we chose another paroduct and we added to cart</p></td>
+                            <td><p>Samsung SyncMaster 941BW</p></td>
+                            <td><p>product is sended to cart</p></td>
+                            <td>PASS</td>
+                            <td></td>
+                            <td></td>
+                        </tr>
+                    
+                        <tr>
+                            <td>78ff9a92-2dc8-4f72-b467-2b9611e639f5</td>
+                            <td>5</td>
+                            <td><p>we go on tablets menu</p></td>
+                            <td></td>
+                            <td><p>tablets page in open</p></td>
+                            <td>PASS</td>
+                            <td></td>
+                            <td></td>
+                        </tr>
+                    
+                        <tr>
+                            <td>10c785a5-8287-4a2c-a2ad-991ec08c020d</td>
+                            <td>6</td>
+                            <td><p>we chose one tablet and we insert in cart</p></td>
+                            <td><p>Samsung Galaxy Tab 10.1</p></td>
+                            <td><p>product is in cart</p></td>
+                            <td>PASS</td>
+                            <td></td>
+                            <td></td>
+                        </tr>
+                    
+                        <tr>
+                            <td>3c835aca-4b80-4df3-9e40-b05b6f2c78e4</td>
+                            <td>7</td>
+                            <td><p>we go on the cart to see if we have all product in cart</p></td>
+                            <td><p>press cart logo</p></td>
+                            <td><p>cart windows in open all products are in cart</p></td>
+                            <td>PASS</td>
+                            <td></td>
+                            <td></td>
+                        </tr>
+                    
+                
+            
+                
+                    <tr>
+                        <td rowspan="8">88088cc4-342d-4345-888c-93a16cfa57eb</td>
+                        <td rowspan="8">Test released v.1</td>
+                        <td rowspan="8"></td>
+                        <td rowspan="8">PROJ-24</td>
+                        <td rowspan="8">Verify Opencart aplication compatibility with chrome browser</td>
+                        <td rowspan="8">ProjectOpenCart</td>
+                        <td rowspan="8"></td>
+                        <td rowspan="8">Test Released</td>
+                        <td rowspan="8">Medium</td>
+                        <td rowspan="8">Lucian Bogdan Scutariu</td>
+                        <td rowspan="8">07-26-2023 10:53:54</td>
+                        <td rowspan="8">PASS</td>
+                        <td rowspan="8"></td>
+                        <td rowspan="8">07-26-2023 10:52:19</td>
+                        <td rowspan="8"></td>
+                        <td rowspan="8"></td>
+                        <td rowspan="8"></td>
+                        <td rowspan="8"></td>
+                        <td rowspan="8"></td>
+                        
+                            <td>bc57bb00-a4a9-4bf1-b200-593a8dbc48b2</td>
+                            <td>1</td>
+                            <td><p>we open google chrome browser</p></td>
+                            <td><p>N/A</p></td>
+                            <td><p>browser is open</p></td>
+                            <td>PASS</td>
+                            <td></td>
+                            <td></td>
+                        
+                    </tr>
+                    
+                        <tr>
+                            <td>b8a40918-1868-4853-96ac-1ab66cb587ba</td>
+                            <td>2</td>
+                            <td><p>we insert the website in the adress field</p></td>
+                            <td><p>https://demo.opencart.com/</p></td>
+                            <td><p>page is open</p></td>
+                            <td>PASS</td>
+                            <td></td>
+                            <td></td>
+                        </tr>
+                    
+                        <tr>
+                            <td>6519c0e6-8b75-45a5-8d3c-78c07fd27dc2</td>
+                            <td>3</td>
+                            <td><p>we click on log in</p></td>
+                            <td></td>
+                            <td><p>menu log in is open</p></td>
+                            <td>PASS</td>
+                            <td></td>
+                            <td></td>
+                        </tr>
+                    
+                        <tr>
+                            <td>12392475-eb3f-41e5-b638-80fad03172ae</td>
+                            <td>4</td>
+                            <td><p>we inser user name</p></td>
+                            <td></td>
+                            <td><p>user name field is completed</p></td>
+                            <td>PASS</td>
+                            <td></td>
+                            <td></td>
+                        </tr>
+                    
+                        <tr>
+                            <td>e0a1b468-16a8-4418-a554-f2c1d28bd2f8</td>
+                            <td>5</td>
+                            <td><p>we insert a wrong password</p></td>
+                            <td></td>
+                            <td><p>password is complet</p></td>
+                            <td>PASS</td>
+                            <td></td>
+                            <td></td>
+                        </tr>
+                    
+                        <tr>
+                            <td>dc40b060-6568-4dca-b011-6bb0b965c880</td>
+                            <td>6</td>
+                            <td><p>we click on the log in button</p></td>
+                            <td></td>
+                            <td><p>log in failed</p></td>
+                            <td>PASS</td>
+                            <td></td>
+                            <td></td>
+                        </tr>
+                    
+                        <tr>
+                            <td>f9983959-cba5-4491-8758-05154ee1aaa6</td>
+                            <td>7</td>
+                            <td><p>we recived a message</p></td>
+                            <td><p>insert the corect password</p></td>
+                            <td><p>message recived</p></td>
+                            <td>PASS</td>
+                            <td></td>
+                            <td></td>
+                        </tr>
+                    
+                        <tr>
+                            <td>dc3f0bbc-9227-43d2-9dd1-deb389e01b6f</td>
+                            <td>8</td>
+                            <td><p>we click on passwort and we write the corect password</p></td>
+                            <td></td>
+                            <td><p>logged in succesfully main page is loaded</p></td>
+                            <td>PASS</td>
+                            <td></td>
+                            <td></td>
+                        </tr>
+                    
+                
+            
+                
+                    <tr>
+                        <td rowspan="3">9575530a-52b5-40b9-af7b-0fe71df5546e</td>
+                        <td rowspan="3">Test released v.1</td>
+                        <td rowspan="3"></td>
+                        <td rowspan="3">PROJ-4</td>
+                        <td rowspan="3">After completing personal information we check what type of payment we can select</td>
+                        <td rowspan="3">ProjectOpenCart</td>
+                        <td rowspan="3"></td>
+                        <td rowspan="3">Test Released</td>
+                        <td rowspan="3">Medium</td>
+                        <td rowspan="3">Lucian Bogdan Scutariu</td>
+                        <td rowspan="3">07-24-2023 12:33:33</td>
+                        <td rowspan="3">FAIL</td>
+                        <td rowspan="3">PROJ-5 | PROJ-5</td>
+                        <td rowspan="3">07-24-2023 12:18:21</td>
+                        <td rowspan="3"></td>
+                        <td rowspan="3"></td>
+                        <td rowspan="3"></td>
+                        <td rowspan="3"></td>
+                        <td rowspan="3"></td>
+                        
+                            <td>279da8c2-acd5-486e-b827-4684358482d3</td>
+                            <td>1</td>
+                            <td><p>we make click on my account button</p></td>
+                            <td><p>N/A</p></td>
+                            <td><p>My account menu is open</p></td>
+                            <td>PASS</td>
+                            <td></td>
+                            <td></td>
+                        
+                    </tr>
+                    
+                        <tr>
+                            <td>a5b5b7ce-55eb-49ec-8a1f-ce36fddb9b4c</td>
+                            <td>2</td>
+                            <td><p>we prress the payment method button</p></td>
+                            <td><p>N/A</p></td>
+                            <td><p>a new page with payments method is open</p></td>
+                            <td>PASS</td>
+                            <td></td>
+                            <td></td>
+                        </tr>
+                    
+                        <tr>
+                            <td>ce0380af-6c05-48e0-abbb-fa22fa2ca88f</td>
+                            <td>3</td>
+                            <td><p>we check what tips of payment we have and we insert our bank details</p></td>
+                            <td><p>Name </br>Last Name tip of card </br>expiring date</br>CVV</p></td>
+                            <td><p>Payment details are succesfuly inserted</p></td>
+                            <td>FAIL</td>
+                            <td></td>
+                            <td></td>
+                        </tr>
+                    
+                
+            
+                
+                    <tr>
+                        <td rowspan="15">a55cd6ff-a527-444f-b9fd-e7604895df8b</td>
+                        <td rowspan="15">Test released v.1</td>
+                        <td rowspan="15"></td>
+                        <td rowspan="15">PROJ-17</td>
+                        <td rowspan="15">complet personal details and place order</td>
+                        <td rowspan="15">ProjectOpenCart</td>
+                        <td rowspan="15"></td>
+                        <td rowspan="15">Test Released</td>
+                        <td rowspan="15">Medium</td>
+                        <td rowspan="15">Lucian Bogdan Scutariu</td>
+                        <td rowspan="15">07-26-2023 10:30:25</td>
+                        <td rowspan="15">FAIL</td>
+                        <td rowspan="15">PROJ-18,PROJ-20,PROJ-21,PROJ-22 | PROJ-18,PROJ-20,PROJ-21,PROJ-22</td>
+                        <td rowspan="15">07-25-2023 14:06:42</td>
+                        <td rowspan="15"></td>
+                        <td rowspan="15"></td>
+                        <td rowspan="15"></td>
+                        <td rowspan="15"></td>
+                        <td rowspan="15"></td>
+                        
+                            <td>fe4d7708-347a-41e0-924d-5ed844693ead</td>
+                            <td>1</td>
+                            <td><p>we acces the main page</p></td>
+                            <td><p>https://demo.opencart.com/index.php?route=common/home&language=en-gb</p></td>
+                            <td><p>main page is accesed</p></td>
+                            <td>PASS</td>
+                            <td></td>
+                            <td></td>
+                        
+                    </tr>
+                    
+                        <tr>
+                            <td>b4ce4508-8b58-4a1b-a0b7-c5b9591b1993</td>
+                            <td>2</td>
+                            <td><p>we click on check out button</p></td>
+                            <td></td>
+                            <td><p>page is opened</p></td>
+                            <td>PASS</td>
+                            <td></td>
+                            <td></td>
+                        </tr>
+                    
+                        <tr>
+                            <td>3766f583-6d48-427d-9ac9-d201cb167aaf</td>
+                            <td>3</td>
+                            <td><p>we fill the firs name</p></td>
+                            <td><p>Scutariu</p></td>
+                            <td><p>name is inserted</p></td>
+                            <td>PASS</td>
+                            <td></td>
+                            <td></td>
+                        </tr>
+                    
+                        <tr>
+                            <td>40b1334e-e5ec-4d95-8a91-6d189fbfe2f9</td>
+                            <td>4</td>
+                            <td><p>we fill last name</p></td>
+                            <td><p>Lucian Bogdan</p></td>
+                            <td><p>field complet</p></td>
+                            <td>PASS</td>
+                            <td></td>
+                            <td></td>
+                        </tr>
+                    
+                        <tr>
+                            <td>a56db38b-ab48-4c50-920c-ab84570efc68</td>
+                            <td>5</td>
+                            <td><p>we fill the adress</p></td>
+                            <td><p>alfred 128</p></td>
+                            <td><p>adress is complet</p></td>
+                            <td>PASS</td>
+                            <td></td>
+                            <td></td>
+                        </tr>
+                    
+                        <tr>
+                            <td>72ac324a-c95d-46d7-9515-b523be54c352</td>
+                            <td>6</td>
+                            <td><p>we write the city</p></td>
+                            <td><p>erfurt</p></td>
+                            <td><p>field complet</p></td>
+                            <td>PASS</td>
+                            <td></td>
+                            <td></td>
+                        </tr>
+                    
+                        <tr>
+                            <td>bfdb085c-2f7e-431f-bb97-fdd7a1654ab2</td>
+                            <td>7</td>
+                            <td><p>we complet country field</p></td>
+                            <td><p>Germany</p></td>
+                            <td><p>done</p></td>
+                            <td>PASS</td>
+                            <td></td>
+                            <td></td>
+                        </tr>
+                    
+                        <tr>
+                            <td>a790356a-e38d-461c-b35c-9279d3c94b8e</td>
+                            <td>8</td>
+                            <td><p>we write aswell the Region/State</p></td>
+                            <td><p>Thuringe</p></td>
+                            <td><p>complet</p></td>
+                            <td>PASS</td>
+                            <td></td>
+                            <td></td>
+                        </tr>
+                    
+                        <tr>
+                            <td>05ef9c13-7fc2-4238-82ba-4962b50bdd2f</td>
+                            <td>9</td>
+                            <td><p>we go down the page and we press continue</p></td>
+                            <td><p>N/A</p></td>
+                            <td><p>new page is diplay</p></td>
+                            <td>PASS</td>
+                            <td></td>
+                            <td></td>
+                        </tr>
+                    
+                        <tr>
+                            <td>8e6a7a87-73cf-4e0a-83e9-d0d84e200e94</td>
+                            <td>10</td>
+                            <td><p>we choose the I want to use an existing address for payment adress and for shipping adress</p></td>
+                            <td></td>
+                            <td><p>done</p></td>
+                            <td>PASS</td>
+                            <td></td>
+                            <td></td>
+                        </tr>
+                    
+                        <tr>
+                            <td>7fe499b3-4d23-4fde-93c3-57dc96437dce</td>
+                            <td>11</td>
+                            <td><p>we chose the shipping method</p></td>
+                            <td><p>DPD</p></td>
+                            <td><p>Shipping box is complet</p></td>
+                            <td>FAIL</td>
+                            <td></td>
+                            <td></td>
+                        </tr>
+                    
+                        <tr>
+                            <td>dcf7eb70-3277-4857-8127-2f71e454fe4d</td>
+                            <td>12</td>
+                            <td><p>we choose payment method</p></td>
+                            <td><p>visa card</p></td>
+                            <td><p>Payment accepted</p></td>
+                            <td>FAIL</td>
+                            <td></td>
+                            <td></td>
+                        </tr>
+                    
+                        <tr>
+                            <td>760aac72-d995-4f6d-8e24-f2238365080a</td>
+                            <td>13</td>
+                            <td><p>we write account details</p></td>
+                            <td><p>N/A</p></td>
+                            <td><p>card details inserted</p></td>
+                            <td>FAIL</td>
+                            <td></td>
+                            <td></td>
+                        </tr>
+                    
+                        <tr>
+                            <td>018f1ec5-fbae-4b11-964e-47ac54f3da3a</td>
+                            <td>14</td>
+                            <td><p>we make click on confirm order</p></td>
+                            <td></td>
+                            <td><p>order finish</p></td>
+                            <td>FAIL</td>
+                            <td></td>
+                            <td></td>
+                        </tr>
+                    
+                        <tr>
+                            <td>bce60404-48a3-4831-a33d-d5707df8b321</td>
+                            <td>15</td>
+                            <td><p>we need to recive on email details with our order nr</p></td>
+                            <td></td>
+                            <td><p>email is confirmed</p></td>
+                            <td>FAIL</td>
+                            <td></td>
+                            <td></td>
+                        </tr>
+                    
+                
+            
+                
+                    <tr>
+                        <td rowspan="9">d5d00023-6ac1-4015-8aa0-6ddda5811ef7</td>
+                        <td rowspan="9">Test released v.1</td>
+                        <td rowspan="9"></td>
+                        <td rowspan="9">PROJ-25</td>
+                        <td rowspan="9">Verify if the opencart is loading on internet explorer browser</td>
+                        <td rowspan="9">ProjectOpenCart</td>
+                        <td rowspan="9"></td>
+                        <td rowspan="9">Test Released</td>
+                        <td rowspan="9">Medium</td>
+                        <td rowspan="9">Lucian Bogdan Scutariu</td>
+                        <td rowspan="9">07-26-2023 11:04:07</td>
+                        <td rowspan="9">PASS</td>
+                        <td rowspan="9"></td>
+                        <td rowspan="9">07-26-2023 11:03:01</td>
+                        <td rowspan="9"></td>
+                        <td rowspan="9"></td>
+                        <td rowspan="9"></td>
+                        <td rowspan="9"></td>
+                        <td rowspan="9"></td>
+                        
+                            <td>f114a300-82a2-4f9a-9f6b-7c120b637583</td>
+                            <td>1</td>
+                            <td><p>we open internet explorer</p></td>
+                            <td></td>
+                            <td><p>browser is open</p></td>
+                            <td>PASS</td>
+                            <td></td>
+                            <td></td>
+                        
+                    </tr>
+                    
+                        <tr>
+                            <td>de876bdb-577e-42e9-93c6-d40017a244c6</td>
+                            <td>2</td>
+                            <td><p>we open the link</p></td>
+                            <td><p>https://demo.opencart.com/</p></td>
+                            <td><p>page is loaded</p></td>
+                            <td>PASS</td>
+                            <td></td>
+                            <td></td>
+                        </tr>
+                    
+                        <tr>
+                            <td>285534c9-4314-4b35-9537-c27a0e08fcd6</td>
+                            <td>3</td>
+                            <td><p>we click on my account button</p></td>
+                            <td></td>
+                            <td><p>menu is open</p></td>
+                            <td>PASS</td>
+                            <td></td>
+                            <td></td>
+                        </tr>
+                    
+                        <tr>
+                            <td>e57904c2-168e-4057-8a05-4392c29277a4</td>
+                            <td>4</td>
+                            <td><p>we click on log in</p></td>
+                            <td></td>
+                            <td><p>login page is open</p></td>
+                            <td>PASS</td>
+                            <td></td>
+                            <td></td>
+                        </tr>
+                    
+                        <tr>
+                            <td>eea12cad-9848-4905-9203-9837d2f57ebb</td>
+                            <td>5</td>
+                            <td><p>we insert false user name</p></td>
+                            <td></td>
+                            <td><p>field is complet</p></td>
+                            <td>PASS</td>
+                            <td></td>
+                            <td></td>
+                        </tr>
+                    
+                        <tr>
+                            <td>0e3e0636-1fad-4b60-add9-550e4fcda5dc</td>
+                            <td>6</td>
+                            <td><p>we write corect password</p></td>
+                            <td></td>
+                            <td><p>user field is complet</p></td>
+                            <td>PASS</td>
+                            <td></td>
+                            <td></td>
+                        </tr>
+                    
+                        <tr>
+                            <td>9fe9cf3d-6c46-4ed7-94ea-0593fe9e821f</td>
+                            <td>7</td>
+                            <td><p>we click on log in</p></td>
+                            <td></td>
+                            <td><p>login failed</p></td>
+                            <td>PASS</td>
+                            <td></td>
+                            <td></td>
+                        </tr>
+                    
+                        <tr>
+                            <td>c454b4e9-dfd7-4224-b895-5a67d9ef44a3</td>
+                            <td>8</td>
+                            <td><p>we recive a messege</p></td>
+                            <td><p>username not found</p></td>
+                            <td><p>message recived</p></td>
+                            <td>PASS</td>
+                            <td></td>
+                            <td></td>
+                        </tr>
+                    
+                        <tr>
+                            <td>c505dc6c-6e6a-4b33-b86e-adf9488d9e47</td>
+                            <td>9</td>
+                            <td><p>we write corect user and corect passwort</p></td>
+                            <td></td>
+                            <td><p>login succesfuly</p></td>
+                            <td>PASS</td>
+                            <td></td>
+                            <td></td>
+                        </tr>
+                    
+                
+            
+                
+                    <tr>
+                        <td rowspan="5">db1a0b89-c699-47d9-8f44-200772997923</td>
+                        <td rowspan="5">Test released v.1</td>
+                        <td rowspan="5"></td>
+                        <td rowspan="5">PROJ-10</td>
+                        <td rowspan="5">preview the image for the products and  adding product in cart </td>
+                        <td rowspan="5">ProjectOpenCart</td>
+                        <td rowspan="5"></td>
+                        <td rowspan="5">Test Released</td>
+                        <td rowspan="5">Medium</td>
+                        <td rowspan="5">Lucian Bogdan Scutariu</td>
+                        <td rowspan="5">07-25-2023 13:18:58</td>
+                        <td rowspan="5">FAIL</td>
+                        <td rowspan="5">PROJ-11,PROJ-12 | PROJ-11,PROJ-12</td>
+                        <td rowspan="5">07-25-2023 13:03:55</td>
+                        <td rowspan="5"></td>
+                        <td rowspan="5"></td>
+                        <td rowspan="5"></td>
+                        <td rowspan="5"></td>
+                        <td rowspan="5"></td>
+                        
+                            <td>ea48ba8e-5516-403c-9b3a-6ff195964cde</td>
+                            <td>1</td>
+                            <td><p>we acces the main page</p></td>
+                            <td><p>https://demo.opencart.com/index.php?route=common/home&language=en-gb</p></td>
+                            <td><p>pagin is loaded</p></td>
+                            <td>PASS</td>
+                            <td></td>
+                            <td></td>
+                        
+                    </tr>
+                    
+                        <tr>
+                            <td>17a2f354-e681-4703-8aae-fee988e05cd7</td>
+                            <td>2</td>
+                            <td><p>we click on Component menu and we click on show all component</p></td>
+                            <td><p>N/A</p></td>
+                            <td><p>page with component is open</p></td>
+                            <td>PASS</td>
+                            <td></td>
+                            <td></td>
+                        </tr>
+                    
+                        <tr>
+                            <td>3fdff138-1ea4-4660-8174-b7a4ea049edc</td>
+                            <td>3</td>
+                            <td><p>we click on monitors products</p></td>
+                            <td></td>
+                            <td><p>page is open</p></td>
+                            <td>PASS</td>
+                            <td></td>
+                            <td></td>
+                        </tr>
+                    
+                        <tr>
+                            <td>b1d36218-3ea6-4253-99a5-ebc073983717</td>
+                            <td>4</td>
+                            <td><p>we chose a product</p></td>
+                            <td><p>Apple Cinema 30"</p></td>
+                            <td><p>pagine with the monitor is open</p></td>
+                            <td>PASS</td>
+                            <td></td>
+                            <td></td>
+                        </tr>
+                    
+                        <tr>
+                            <td>4ab574a1-b5b7-4673-aa2c-dbf61d246106</td>
+                            <td>5</td>
+                            <td><p>we read the info we take a look for images and we insert it in to the cart</p></td>
+                            <td></td>
+                            <td><p>product is added to cart</p></td>
+                            <td>FAIL</td>
+                            <td></td>
+                            <td></td>
+                        </tr>
+                    
+                
+            
+                
+                    <tr>
+                        <td rowspan="7">e986d473-adbf-4171-9cb9-5b5e0f02d776</td>
+                        <td rowspan="7">Test released v.1</td>
+                        <td rowspan="7"></td>
+                        <td rowspan="7">PROJ-26</td>
+                        <td rowspan="7">Verify if the Opencart is running on Firefox browser</td>
+                        <td rowspan="7">ProjectOpenCart</td>
+                        <td rowspan="7"></td>
+                        <td rowspan="7">Test Released</td>
+                        <td rowspan="7">Medium</td>
+                        <td rowspan="7">Lucian Bogdan Scutariu</td>
+                        <td rowspan="7">07-26-2023 11:12:15</td>
+                        <td rowspan="7">PASS</td>
+                        <td rowspan="7"></td>
+                        <td rowspan="7">07-26-2023 11:11:16</td>
+                        <td rowspan="7"></td>
+                        <td rowspan="7"></td>
+                        <td rowspan="7"></td>
+                        <td rowspan="7"></td>
+                        <td rowspan="7"></td>
+                        
+                            <td>7c98bb20-6809-4a8b-8b62-8e54e77a1474</td>
+                            <td>1</td>
+                            <td><p>we open firefox browser</p></td>
+                            <td></td>
+                            <td><p>browser is open</p></td>
+                            <td>PASS</td>
+                            <td></td>
+                            <td></td>
+                        
+                    </tr>
+                    
+                        <tr>
+                            <td>34d543df-3690-4d6c-9fc8-3ada1b905476</td>
+                            <td>2</td>
+                            <td><p>we acces the site</p></td>
+                            <td><p>https://demo.opencart.com/</p></td>
+                            <td><p>page is loaded</p></td>
+                            <td>PASS</td>
+                            <td></td>
+                            <td></td>
+                        </tr>
+                    
+                        <tr>
+                            <td>f7207ae1-df77-449d-ad8b-8ed5dacbb280</td>
+                            <td>3</td>
+                            <td><p>we click on my account</p></td>
+                            <td></td>
+                            <td><p>menu for my acount is open</p></td>
+                            <td>PASS</td>
+                            <td></td>
+                            <td></td>
+                        </tr>
+                    
+                        <tr>
+                            <td>9b39593f-54eb-464a-9d1e-2ef2ed921db0</td>
+                            <td>4</td>
+                            <td><p>we click on login</p></td>
+                            <td></td>
+                            <td><p>login page is open</p></td>
+                            <td>PASS</td>
+                            <td></td>
+                            <td></td>
+                        </tr>
+                    
+                        <tr>
+                            <td>f107901e-d151-4be6-8a87-e5a13a04e967</td>
+                            <td>5</td>
+                            <td><p>we insert fals username an false password and click login</p></td>
+                            <td></td>
+                            <td><p>login failed</p></td>
+                            <td>PASS</td>
+                            <td></td>
+                            <td></td>
+                        </tr>
+                    
+                        <tr>
+                            <td>93d99f42-5201-4a6a-88d8-c7cb1caac1a8</td>
+                            <td>6</td>
+                            <td><p>we recive a message</p></td>
+                            <td><p>username and passort wrong inserted</p></td>
+                            <td><p>message recived</p></td>
+                            <td>PASS</td>
+                            <td></td>
+                            <td></td>
+                        </tr>
+                    
+                        <tr>
+                            <td>faa83865-c218-4a7c-87ef-87aaf984f9db</td>
+                            <td>7</td>
+                            <td><p>we insert the corect user and password</p></td>
+                            <td><p>log in button</p></td>
+                            <td><p>home page is open</p></td>
+                            <td>PASS</td>
+                            <td></td>
+                            <td></td>
+                        </tr>
+                    
+                
+            
+            </tbody>
+        </table>
+    </body>
+</html>
