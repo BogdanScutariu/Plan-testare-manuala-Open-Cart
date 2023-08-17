@@ -182,7 +182,7 @@ Testing types used:<strong>Functional testing,Positiv Testing,Experience-based t
 
    
 #### 3.8 Test completion report
- Here are the reportt for the test are passed and failed : <a href="https://github.com/BogdanScutariu/Plan-testare-manuala-Open-Cart/blob/3a2e2ef01919873549ffb17bd45cab5630051406/bug%20report.png">Bug Report</a>
+ Here are the reportt for the test are passed and failed : <a href="https://github.com/BogdanScutariu/Plan-testare-manuala-Open-Cart/blob/5c99d7d5a36ea0f36343f78bd8cc9f2feafdda78/test%20execution.png">Test Execution</a>
  - we have 10 days of testing
  - we have 30 functional and GUI tests
  - in order to finish the regression run we would need to run an ~ of 3 tests/day
