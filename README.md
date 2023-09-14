@@ -42,7 +42,7 @@ OpenCart is free open source e-commerce platform for online merchants. OpenCart 
    
    ### 1.2  Functionalities in scope
       - Create an account successfully 
-      - Check the menu if are corect products in the category 
+      - Check the menu if are corect products categories 
       - Ability to chose one or more products and insert in cart
       - Make a order successfully 
       
