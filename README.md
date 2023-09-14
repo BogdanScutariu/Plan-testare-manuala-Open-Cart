@@ -65,7 +65,10 @@ Testing types used:<strong>Functional testing,Positive Testing,Experience-based 
   <li> No QA support for mobile applications provided. Only web applications will be tested
   <li> Performance testing with all the subcategories and security testing are put of scope since they will be handled in a different project
   <li> Localization testing will not be in scope for this project since for the moment it will be used on a small range of coustumers who do not present a risk from this point of view
+
+    
   ## 2.Test process
+  
   ### 2.1 Test Planning
   Roles and responsibilities
   
@@ -76,9 +79,9 @@ Testing types used:<strong>Functional testing,Positive Testing,Experience-based 
   <em><strong>Entry criteria:</strong></em>
   
  <li>Functional business specifications are defined
- <li>Types of software we need to use 
+ <li>Types of browsers we need to use : Internet explorer,Google Chrome, Firefox
  <li>Roles needed for the project are allocated
- <li>Testing environment is up and running
+ 
 
  <em><strong>Exit criteria:</strong></em>
 
@@ -86,7 +89,7 @@ Testing types used:<strong>Functional testing,Positive Testing,Experience-based 
  <li>90% of tests are passed
  <li>no Critical issues/bugs have Open status (All unresolved bugs have low priority and low severity)
  <li>exploratory testing performed on the features: Add funds, buy a product, Cancel order
- <li>update tests are 100% passed (update tests will not generate other new issues that impact the application)
+ 
 
  <em><strong>Risks:</strong></em>
 
@@ -96,14 +99,13 @@ Testing types used:<strong>Functional testing,Positive Testing,Experience-based 
  <li>versions of IE older than 1.5923e have security vulnerabilities 
  <li>the web page pagination could be impacted when opened on mobile devices
  <li>stress conditions might impact the web application
- <li>browser that are new released might not be supported
- <li>Security problem due new updates that might impact the vulnerability of the application
- <li> Log in problems
-
-
+ <li>browsers that are new released might not be supported
+ <li>Security problems due new updates that might impact the vulnerability of the application
+ <li>Log in problems: creditentials may be wrong ,or not accepted with next caracters:"£$%^!"
+   
   #### 2.2 Test analysis 
 
-- The testing process will be done based on the requirements for features:
+ The testing process will be done based on the requirements for features:
    <li> Acces the site   
    <li> Create a new user
    <li> Insert personal details
@@ -112,7 +114,7 @@ Testing types used:<strong>Functional testing,Positive Testing,Experience-based 
    <li> Check if Voucher are applied 
    <li> Check out and Shipping adress 
    
-- we plan on running a full regression test on the current version
+ we plan on running a full regression test on the current version
    Test Conditions:
   <li> We will use test environment ;
   <li> Testing using new accounts and older account is necessary ;
@@ -123,19 +125,20 @@ Testing types used:<strong>Functional testing,Positive Testing,Experience-based 
 - All the test cases are written and reviewed 
 - Functional test cases will be created in Zephyr Squad using Jira as Test Management tool 
 - Test condition will be created in Jira
-- Positive Testing and Negative Testing will be written and executed 
 - GUI test cases will be created in Zephyr Squad using Jira as Test Management tool .
 
 #### 2.4 Test implementation
 
 - all the test data is available and reviewed 
-- this test run includes only regression testing in which we will run tests that have the highest priority, this will be main priority ;
 - Cycle summary was created and test cases were added to the cycle summary ;
-- Test environment is up and running:
+- Test environment is up and running
+- Positive Testing and Negative Testing will be written and executed 
+  
   #### 2.5 Test execution
 
 - The tests will be executed on the top 4 used browsers: Chrome, Mozilla Firefox, Microsoft Edge, Apple Safari. If time will be available we will extend tests on Opera and Brave browsers ;
-- Test cases will be executed on the created Test Cycle Summary ;
+- Test cases will be executed on the created Test Cycle Summary 
+- Positive Testing and Negative Testing will be written and executed  
 - Bugs will be reported based on the failed tests .
 
 #### 2.6 Test closure
@@ -145,19 +148,18 @@ Testing types used:<strong>Functional testing,Positive Testing,Experience-based 
 - Exploratory testing have been performed .
 
 #### 2.7 Test monitoring and control
-- Various periodic reports (daily/weekly/bi-weekly) will be generated to reflect the current status of the testing process.
+- Reports will be generated to reflect the current status of the testing process.
 
 ## 3. Test deliverables	
 
 
-#### 3.1 Test plan - link to test plan
+#### 3.1 Test plan 
 - The Test Plan is designed to describe all the details of testing for the following features:
   
    <li> Acces the site, Create a new user and insert personal details
    <li> Check payments methods 
-   <li> Check de Menu with products
    <li> Managing and adding products in the cart
-   <li> Check is Voucher are applied 
+   <li> Check is Voucher is applied 
    <li> Check out and Shipping adress
 
 - The plan identifies the items and the features to be tested, the type of testing to be performed, the roles and responsibilities for testing process, the risks associated with the plan, the resources and schedule required to complete testing.
@@ -166,6 +168,7 @@ Testing types used:<strong>Functional testing,Positive Testing,Experience-based 
 
 
 #### 3.3 Test cases
+Here you can acces the link for the test cases executed:
  - <a href="https://github.com/BogdanScutariu/Plan-testare-manuala-Open-Cart/blob/795585ddfcd36a295c95273075b0291befdde931/ZFJ-issue-export-08-16-2023-242ac113-0001.xlsx" target="_blank">Test case</a>
 
 #### 3.4 Daily/Weekly/Bi-weekly test summary report
@@ -182,7 +185,7 @@ Testing types used:<strong>Functional testing,Positive Testing,Experience-based 
 
    
 #### 3.8 Test completion report
- Here are the reportt for the test are passed and failed : <a href="https://github.com/BogdanScutariu/Plan-testare-manuala-Open-Cart/blob/5c99d7d5a36ea0f36343f78bd8cc9f2feafdda78/test%20execution.png">Test Execution</a>
+ Here is the report for the test are passed and failed : <a href="https://github.com/BogdanScutariu/Plan-testare-manuala-Open-Cart/blob/5c99d7d5a36ea0f36343f78bd8cc9f2feafdda78/test%20execution.png">Test Execution</a>
  - we have 10 days of testing
  - we have 30 functional and GUI tests
  - in order to finish the regression run we would need to run an ~ of 3 tests/day
