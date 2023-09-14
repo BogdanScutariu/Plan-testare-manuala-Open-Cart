@@ -165,7 +165,7 @@ Testing types used:<strong>Functional testing,Positive Testing,Experience-based 
 - The plan identifies the items and the features to be tested, the type of testing to be performed, the roles and responsibilities for testing process, the risks associated with the plan, the resources and schedule required to complete testing.
 
 #### 3.2 Test conditions 
-The next link shows the [test condtitions](https://github.com/BogdanScutariu/Plan-testare-manuala-Open-Cart/blob/9ee7dceb38882b0fb4be6287ccdc41ee58208238/test%20conditions.png)
+The next link shows the [test condtitions](https://github.com/BogdanScutariu/Plan-testare-manuala-Open-Cart/blob/46636deae3af818e7c43b0ae1a194ea56cafc6cd/Test%20condition.png)
 
 #### 3.3 Test cases
 Here you can acces the link for the test cases executed:
