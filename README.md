@@ -172,7 +172,8 @@ Here you can acces the link for the test cases executed:
  - <a href="https://github.com/BogdanScutariu/Plan-testare-manuala-Open-Cart/blob/795585ddfcd36a295c95273075b0291befdde931/ZFJ-issue-export-08-16-2023-242ac113-0001.xlsx" target="_blank">Test case</a>
 
 #### 3.4 Daily/Weekly/Bi-weekly test summary report
- - link to the summary reports 
+ - link to the [summary reports](https://github.com/BogdanScutariu/Plan-testare-manuala-Open-Cart/blob/dfc98ed2890661c63c61806206bf8ef7bc7ebce2/ZFJ-Cycles-09-14-2023.html)
+    
 
 #### 3.5 Traceability matrix
  - Link to traceability matrix :  <a href="https://github.com/BogdanScutariu/Plan-testare-manuala-Open-Cart/blob/1df41d86dd52dde85857e9ef60131526458ec927/Tracebility%20Matrix.xlsx">Traceability Matrix report</a>
