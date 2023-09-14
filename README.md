@@ -172,7 +172,7 @@ Here you can acces the link for the test cases executed:
  - <a href="https://github.com/BogdanScutariu/Plan-testare-manuala-Open-Cart/blob/795585ddfcd36a295c95273075b0291befdde931/ZFJ-issue-export-08-16-2023-242ac113-0001.xlsx" target="_blank">Test case</a>
 
 #### 3.4 Daily/Weekly/Bi-weekly test summary report
- - link to daily test summary report (number of tests ran today, % of them failed, passed, re-test, etc) *vom adauga link catre screenshot cu cu test summary report incarcat pe github SAU incarcam imaginea cu raportul direct pe github. Raportul va fi generat din Jira pe masura ce executam test caseurile.
+ - link to the summary reports 
 
 #### 3.5 Traceability matrix
  - Link to traceability matrix :  <a href="https://github.com/BogdanScutariu/Plan-testare-manuala-Open-Cart/blob/1df41d86dd52dde85857e9ef60131526458ec927/Tracebility%20Matrix.xlsx">Traceability Matrix report</a>
