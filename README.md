@@ -44,7 +44,7 @@ OpenCart is free open source e-commerce platform for online merchants. OpenCart 
       - Create an account successfully 
       - Check the menu if are corect products categories 
       - Ability to chose one or more products and insert in cart
-      - Make a order successfully 
+      - Make an order successfully 
       
    The following are the functionalities that need to be
 prioritised for the testing of the web application : 
@@ -53,11 +53,11 @@ prioritised for the testing of the web application :
    <li> Check payments methods 
    <li> Check de Menu with products
    <li> Managing and adding products in the cart
-   <li> Check if Voucher are applied 
+   <li> Check if Vouchers are applied 
    <li> Check out and Shipping adress
   
 
-Testing types used:<strong>Functional testing,Positiv Testing,Experience-based testing,Negativ Testing, GUI testing</strong>
+Testing types used:<strong>Functional testing,Positive Testing,Experience-based testing,Negative Testing, GUI testing</strong>
 
   ### 1.3 Functionalities and tests out of scope
 
