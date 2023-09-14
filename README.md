@@ -61,7 +61,6 @@ Testing types used:<strong>Functional testing,Positive Testing,Experience-based 
 
   ### 1.3 Functionalities and tests out of scope
 
-  <li> We will run some test on differents browser
   <li> No QA support for mobile applications developed. Only web applications will be tested
   <li> Non-functional testing like stress, performance is beyond scope of this project.
 
